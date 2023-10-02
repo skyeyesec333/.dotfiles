@@ -134,3 +134,7 @@ neofetch
 #github syncing .dotfiles
 
 alias config='/usr/bin/git --git-dir=$HOME/.backup-to-gitlab  --work-tree=$HOME'
+
+#start glava but 'disown' the terminal
+
+alias glava='/usr/bin/glava &; disown'
